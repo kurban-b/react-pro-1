@@ -17,7 +17,7 @@ ul {
 }
 .albums {
   width: 300px;
-  background-color: azure;
+  background-color: rgba(208, 208, 208, 0.29);
   min-height: 100vh;
 }
 .albums .title {
@@ -31,7 +31,7 @@ ul {
   cursor: pointer;
 }
 .albums li:hover {
-  background-color: aliceblue;
+  background-color: #d5e1f1;
 }
 .photos-wrap {
   padding: 10px;
@@ -120,4 +120,8 @@ ul {
     border-left: 20px solid #f1d000;
     transform: rotate(360deg);
   }
+}
+
+.active {
+  background-color: #d5e1f1;
 }
